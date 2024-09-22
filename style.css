@@ -1,0 +1,36 @@
+.our_feature{
+    font-size: 45px;
+}
+.info{
+    text-align: center;
+}
+.milk{
+    font-size: 25px;
+}
+.milk_info{
+    font-size: 16px;
+}
+.div_1{
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%);
+
+
+    width: 267px;
+    height: 391px;
+    text-align: center;
+}
+
+.group_1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    padding: 60px;
+
+}
+
+@media screen and (max-width: 576px) {
+  .group_1{
+   
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+}
